@@ -12,7 +12,7 @@ reader = csv.reader(csvfile)
 movie_nm = []
 
 for line in reader:
-    if line[0] != '' && line[0]!='Film' && line[0]!= 'Average':
+    if line[0] != '' and line[0]!='Film' and line[0]!= 'Average':
         movie_nm.append(line[0])    
 csvfile.close()
 
